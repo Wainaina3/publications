@@ -10,5 +10,10 @@ publications.code-workspace
 #compiled modules
 *.pyc
 
+#installation notes #Dev
+installation.conf
+
+
+
 
 
