@@ -16,6 +16,8 @@ def create_app():
 #you can register as many modules you have
 def register_modules(app):
     from mainapp.counties import counties_bp
+    from mainapp.constituencies import constituencies_bp
 
     app.register_blueprint(counties_bp)
+    app.register_blueprint(constituencies_bp)
 

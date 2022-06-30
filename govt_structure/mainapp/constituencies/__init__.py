@@ -1,7 +1,7 @@
 from flask import Blueprint
 
-#create a morning module blueprint
-morning_bp = Blueprint('morning',__name__)
+#create a Constituencies module blueprint
+constituencies_bp = Blueprint('constituencies',__name__)
 
-#import morning module routes
-from mainapp.morning import routes
+#import Constituencies module routes
+from mainapp.constituencies import route
