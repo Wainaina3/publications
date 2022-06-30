@@ -2,8 +2,9 @@ import pymongo
 
 class DB(object):
   #using online mongo db database 
-  #this is not a safe implementation
-  DATABASE_URL = "mongodb+srv://aptitudeadmin:aptitudenyunyizi@aptitude.5x5on6f.mongodb.net/?retryWrites=true&w=majority"
+  #this is not a safe implementation of connecting to db
+  DATABASE_URL = "mongodburlhere"
+  
   def init():
     client = pymongo.MongoClient(DB.DATABASE_URL)
     DB.DATABASE = client["govt"]
