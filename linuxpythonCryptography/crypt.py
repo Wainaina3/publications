@@ -2,17 +2,6 @@ from base64 import b64decode
 from Crypto.Cipher import PKCS1_OAEP
 from Crypto.PublicKey import RSA
 
-def load_key():
-
-    return open("aptitudeprivatekey.pem", "rb").read()
-
-def loadcipher():
-
-    return open("encryptedconfig","rb").read()
-
-key = load_key()
-cipher_text = loadcipher()
-
 def test_decryption():
         encrypted_data_file = "encryptedconfig"
 
