@@ -4,6 +4,7 @@ from Crypto.PublicKey import RSA
 
 APP_NAME="linuxpythonCryptography"
 
+
 ##Decrypt encrypted data with RSA private key
 def decrypt_data():
 
@@ -48,5 +49,5 @@ def read_encrypted_data():
 
     return encrypted_data
 
-# decrypted encrypteddata file and print
+#decrypted encrypteddata file and print
 decrypt_data()

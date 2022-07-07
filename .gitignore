@@ -13,6 +13,11 @@ publications.code-workspace
 #installation notes #Dev
 installation.conf
 
+#omit the keys from git
+*.pem
+
+
+
 
 
 
