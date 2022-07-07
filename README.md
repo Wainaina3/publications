@@ -1,2 +1,2 @@
 # publications
-Collection of publications code
+Collection of code
