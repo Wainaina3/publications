@@ -16,6 +16,12 @@ installation.conf
 #omit the keys from git
 *.pem
 
+#Omit env file
+.env
+
+#Omit config files
+govt_structure/mainapp/configs/configfiles/*
+
 
 
 
