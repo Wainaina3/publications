@@ -35,4 +35,4 @@ RUN groupadd -r appuser -f -g 1002 && \
 USER appuser
 
 #Entrypoint specifies default command to execute when the image runs
-ENTRYPOINT [ "appentry.sh" ]
+ENTRYPOINT [ "/app/appentry.sh" ]
