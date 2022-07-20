@@ -25,6 +25,9 @@ govt_structure/mainapp/configs/configfiles/*
 #omit workspace
 publications.code-workspace
 
+#omit dev notes
+installation.notes
+
 
 
 
