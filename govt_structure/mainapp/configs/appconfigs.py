@@ -10,7 +10,7 @@ class Appconfig(object):
         current_dir = os.getcwd()
         config_file = "govtconf.yaml"
         #return local configfiles dir
-        app_secrets_dir = "".join([current_dir,"/mainapp/configs/configfiles/"])
+        app_secrets_dir = "".join([current_dir,"/mainapp/configs/confs/"])
         with open(os.path.join(app_secrets_dir, config_file)) as configs_file:
             loaded_config = yaml.safe_load(configs_file)
             config = loaded_config[config_name]

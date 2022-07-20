@@ -20,7 +20,7 @@ installation.conf
 .env
 
 #Omit config files
-govt_structure/mainapp/configs/configfiles/*
+govt_structure/mainapp/configs/confs/*
 
 #omit workspace
 publications.code-workspace
