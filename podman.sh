@@ -2,9 +2,9 @@
 
 ## create images using Dockerfile in govt structure and nginx
 
-podman build -t quay.io/wainaina3/govt /govt_structure/.
+podman build -t quay.io/wainaina3/govt ./govt_structure/.
 
-podman build -t quay.io/wainaina3/nginxgovt /nginx/.
+podman build -t quay.io/wainaina3/nginxgovt ./nginx/.
 # <<< creating containers in a pod podman >>>
 ##create a pod and expose on port 8080
 podman pod create -n govtstructurenginx -p 8080:8080
