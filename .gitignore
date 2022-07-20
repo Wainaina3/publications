@@ -22,6 +22,9 @@ installation.conf
 #Omit config files
 govt_structure/mainapp/configs/configfiles/*
 
+#omit workspace
+publications.code-workspace
+
 
 
 
