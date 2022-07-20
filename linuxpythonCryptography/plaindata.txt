@@ -1,1 +1,0 @@
-Encryption has become important in our day to day application development. 
