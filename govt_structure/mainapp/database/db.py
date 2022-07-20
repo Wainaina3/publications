@@ -1,13 +1,15 @@
 import pymongo
+from mainapp.configs.appconfigs import Appconfig
 
 class DB(object):
   #using online mongo db database 
-  #this is not a safe implementation of connecting to db
-  DATABASE_URL = "mongodburlhere"
-  
   def init():
-    client = pymongo.MongoClient(DB.DATABASE_URL)
-    DB.DATABASE = client["govt"]
+
+    #load database credentials
+      database_url = Appconfig.read_configs("database_url")
+      #initiate a connection
+      client = pymongo.MongoClient(database_url)
+      DB.DATABASE = client['govt']
 
   def insert(collection, data):
       #insert data into given collection
