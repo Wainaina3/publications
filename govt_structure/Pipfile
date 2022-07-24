@@ -9,6 +9,7 @@ gunicorn = "*"
 pymongo = "*"
 pyyaml = "*"
 dnspython = "*"
+marshmallow = "*"
 
 [dev-packages]
 
