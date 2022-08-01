@@ -28,6 +28,10 @@ publications.code-workspace
 #omit dev notes
 installation.notes
 
+#omit login folder
+logins/*
+
+
 
 
 

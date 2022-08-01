@@ -34,5 +34,6 @@ RUN groupadd -r appuser -f -g 1002 && \
 #User who will be running the application; Best practice to use a different user other than root
 USER appuser
 
+EXPOSE 8000
 #Entrypoint specifies default command to execute when the image runs
 ENTRYPOINT [ "/app/appentry.sh" ]
