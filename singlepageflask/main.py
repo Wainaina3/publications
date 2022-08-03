@@ -23,6 +23,6 @@ def get_joke():
             #There is an error in the request
             print(f"Hello geek, there's a {response.status_code} error with your request")
 
-# ##add host as 0.0.0.0 to be accessible from outside when running as a container
+#add host as 0.0.0.0 to be accessible from outside when running as a container
 if __name__ == '__main__':
     app.run(host='0.0.0.0')

@@ -1,11 +1,3 @@
-# publications
-Collection of publications code
-
-# govt_structure
-The application consumes database credentials from a appconfigs package.
-The yaml file container the mongoDB credentials are not pushed on git but can easily be configure as below:
-database_url: mongoDBurl
-
 # singlepageflask
 This is single page flask application which have just one endpoint "/jokeme". The end point returns
 a random dad joke each time its called. 
@@ -24,8 +16,3 @@ $ podman run -d -p 8000:8000 --name singlepage singlepage
 Test the endpoint;
 
 $ curl http://localhost:8000/jokeme
-
-
-
-
-

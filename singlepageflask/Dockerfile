@@ -6,6 +6,8 @@ ENV APP_DIR /app
 
 #Copy files from working directory to container file system
 COPY . ${APP_DIR}
+
+ADD 
 #switch to working directory
 WORKDIR ${APP_DIR}
 
