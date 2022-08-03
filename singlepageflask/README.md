@@ -9,7 +9,7 @@ Remember to expose the container by mapping host with container port 8000.
 If you are using podman, you can test it locally by below command;
 
 $ git clone -b singleflask --single-branch https://github.com/Wainaina3/publications.git
-
+$ cd singlepageflask
 $ podman build -t singlepage .
 $ podman run -d -p 8000:8000 --name singlepage singlepage
 
